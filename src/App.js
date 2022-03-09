@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <h1>Fruitmand bezorgservice</h1>
-        Aardbei
+        Aarbeien
         <button type="button" disabled={aarbeien === 0} onClick={() => setAarbeien(aarbeien - 1)}>-</button>
         <input type="text" value={aarbeien}/>
         <button type="button" onClick={() => setAarbeien(aarbeien + 1)}>+</button>
@@ -43,7 +43,7 @@ function App() {
         <input type="text" value={bananen}/>
         <button type="button" onClick={() => setBananen(bananen + 1)}>+</button>
         <br/>
-        Apels
+        Appels
         <button type="button" disabled={appels === 0} onClick={() => setAppels(appels - 1)}>-</button>
         <input type="text" value={appels}/>
         <button type="button" onClick={() => setAppels(appels + 1)}>+</button>
